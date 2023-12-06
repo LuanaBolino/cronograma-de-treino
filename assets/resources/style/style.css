@@ -1,5 +1,6 @@
 html {
     font-family: 'Nokora', sans-serif;
+    background-color: black;
 }
 
 a {
@@ -91,6 +92,7 @@ main {
     .mobile-menu {
         display: block;
     }
+    
 }
 
 .nav-list.active {
@@ -121,4 +123,18 @@ main {
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
-/* nav -------------------------------------------------------------
+/* home -------------------------------------------------------------*/
+#home{
+    background-image: url(https://res.cloudinary.com/dqgvy8ajy/image/upload/v1701897600/cronograma-de-treino/mjpukji3tamoazruwcen.png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 600px){
+    #home{
+        background-position: -37px;
+        background-size: cover;
+    }
+}
