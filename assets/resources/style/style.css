@@ -20,8 +20,8 @@ a:hover {
     font-size: clamp(1.5rem, 1.3696rem + 0.6522vw, 1.875rem);
 }
 
-.whte {
-    color: white;
+.white {
+    color: rgb(255, 255, 255);
 }
 
 .green {
@@ -130,11 +130,31 @@ main {
     width: 100vw;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.title{
+    display: flex;
+    gap: 2vw;
+    font-size: clamp(1.5rem, 0.413rem + 5.4348vw, 4.625rem);
+}
+
+h2{
+    color: white;
+    font-size: clamp(1.25rem, 0.9239rem + 1.6304vw, 2.1875rem);
 }
 
 @media (max-width: 600px){
     #home{
         background-position: -37px;
         background-size: cover;
+        height: 70vh;
     }
 }
