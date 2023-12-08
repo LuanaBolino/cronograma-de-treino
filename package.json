@@ -6,14 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.29"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.5"
+    "jquery": "^3.7.1"
   }
 }

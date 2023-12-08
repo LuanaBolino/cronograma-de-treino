@@ -400,3 +400,55 @@ footer{
         flex-direction: row;
     }
 }
+/*nav geral --------------------------------------------------------------------------------------*/
+.nav-geral{
+    width: 100vw;
+    height: 8vh;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*login -------------------------------------------------------------------------------------------*/
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5vh;
+    height: 85vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.welcome > h1{
+    color: white;
+    text-align: center;
+    
+}
+
+.welcome > a{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.input{
+    height: 4vh;
+    width: 70vw;
+    max-width: 350px;
+    border-radius: 7px;
+    color: #bdbdbd;
+   border: none;
+   padding: 0 10px;
+}
