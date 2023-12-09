@@ -1,7 +1,5 @@
 @import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
 
-
-
 .logo {
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +9,7 @@
 }
 
 .white {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .green {
