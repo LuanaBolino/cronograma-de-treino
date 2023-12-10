@@ -1,0 +1,15 @@
+{
+  "name": "cronograma-de-treino",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/8eArPUxFO5FgSXe3hVFCCG/cronograma-de-treino?type=design&node-id=0%3A1&mode=design&t=cTtkBRKqL1uW4uRS-1git",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
