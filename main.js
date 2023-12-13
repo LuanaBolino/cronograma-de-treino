@@ -1,18 +1,26 @@
-//MENU DE NAVEGAÇÃO---------------------------------------------------------------
-const hamburger = document.querySelector(".hamburger");
-const nav = document.querySelector(".nav");
-hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+$(document).ready(function () {
+    // hamburger
+    $(".hamburger").click(function () {
+      $(".nav").toggleClass("active");
+    });
 
-//LINKS---------------------------------------------------------------------------
-document.getElementById('start-btn').addEventListener('click', function () {
-    window.location.href = './app/login.html';
-});
+    // Redirecionamento ao clicar nos botões
+    $('#start-btn, #login-btn, #sign-up-btn').click(function () {
+      var buttonId = $(this).attr('id');
+      switch (buttonId) {
+        case 'start-btn':
+        case 'login-btn':
+          window.location.href = '/app/pages/access/login.html';
+          break;
+        case 'sign-up-btn':
+          window.location.href = '/app/pages/access/sign.html';
+          break;
+        default:
+          break;
+      }
+    });
+  });
 
-document.getElementById('login-btn').addEventListener('click', function () {
-    window.location.href = './app/login.html';
-});
 
-document.getElementById('sign-up-btn').addEventListener('click', function () {
-    window.location.href = './app/sign.html';
-});
+
 
