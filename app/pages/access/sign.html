@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/resources/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/resources/favicon/favicon-16x16.png">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="../assets/resources/style/reset.css">
-  <link rel="stylesheet" href="../assets/resources/style/style.css">
+  <link rel="stylesheet" href="../../../assets/resources/style/reset.css">
+  <link rel="stylesheet" href="../../../assets/resources/style/style.css">
   <!--google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,7 @@
 
   <header>
     <nav class="nav-geral">
-      <a class="logo" href="../index.html">
+      <a class="logo" href="/app/index.html">
         <span class="white">GO</span>
         <span class="green">FIT</span>
       </a>
@@ -34,12 +34,21 @@
   <main>
     <section class="welcome">
       <h1>CREATE ACOUNT</h1>
-      <div class="formulario">
-        <input type="text" name="name" id="name" placeholder="NAME" class="input">
-        <input type="email" name="email" id="email" placeholder="EMAIl" class="input">
-        <input type="password" name="email" id="email" placeholder="PASSWORD" class="input">
-      </div>
-      <button class="btn-green">SIGN UP</button>
+      <form class="formulario">
+        <input type="text" name="name" id="name" placeholder="NAME" class="input" autofocus>
+        <span id="name-error" class="error-message"></span>
+
+        <input type="email" name="email" id="email" placeholder="EMAIL" class="input">
+        <span id="email-error" class="error-message"></span>
+
+        <input type="password" name="password" id="password" placeholder="PASSWORD" class="input">
+        <span id="password-error" class="error-message"></span>
+
+        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="CONFIRM PASSWORD" class="input">
+        <span id="confirmPassword-error" class="error-message"></span>
+
+        <button type="button" onclick="validateForm('signup')" class="btn-green">SIGN UP</button>
+      </form>
       <a href="./login.html">ALREADY HAVE AN ACCOUNT? BETWEEN HERE!</a>
     </section>
   </main>
@@ -50,6 +59,10 @@
     </a>
     <h3>- 2023</h3>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="./sign.js"></script>
+
 </body>
 
 </html>
