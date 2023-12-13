@@ -1,5 +1,28 @@
 @import url(./bootstrap.min.css);
 
+
+:root {
+    --bs-primary: #52FF4F;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    max-width: 300px;
+    border-radius: 25px;
+}
+
+.btn-primary:hover {
+    color: #000000;
+    background-color: #38af36;
+    border-color: #38af36;
+}
+
+.btn-secondary{
+    border-radius: 25px;
+}
+
 .logo {
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -18,23 +41,52 @@
     font-size: clamp(1.5rem, 1.3696rem + 0.6522vw, 1.875rem);
 }
 
-.h400{
+.h400 {
     height: 400px;
 }
 
 /*cores   -------------------------------------*/
 
-.b-white{
+.b-white {
     background-color: rgba(255, 255, 255, 0.555);
 }
-.black{
+
+.black {
     background-color: black;
 }
 
 /*TÍTULOS ---------------------------*/
 
-.h3-txt{
+.h3-txt {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-style: italic;
-    font-size: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);}
+    font-size: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+}
+
+.h1-txt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: clamp(2.5rem, 2.0652rem + 2.1739vw, 3.75rem);
+    color: white;
+}
+
+.h4-txt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: clamp(0.875rem, 0.8315rem + 0.2174vw, 1rem);
+}
+
+.p-txt-bold{
+    font-weight: 600;
+    font-family: 'Nokora', sans-serif;
+    font-size: 16px;
+}
+
+.p-txt{
+    font-family: 'Nokora', sans-serif;
+    font-size: 1em;
+}
+
