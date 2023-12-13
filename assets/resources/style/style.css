@@ -453,3 +453,13 @@ footer{
    border: none;
    padding: 0 10px;
 }
+
+.error-message {
+    color: rgb(150, 65, 65);
+    font-size: clamp(0.5rem, 0.4565rem + 0.2174vw, 0.625rem);
+    font-weight: 700;
+  }
+
+  .error {
+    border: 1px solid red;
+  }
