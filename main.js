@@ -15,3 +15,4 @@ document.getElementById('login-btn').addEventListener('click', function () {
 document.getElementById('sign-up-btn').addEventListener('click', function () {
     window.location.href = './app/sign.html';
 });
+
