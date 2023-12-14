@@ -80,13 +80,9 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  // Obtenha referências aos elementos
   const showPasswordCheckbox = $('#showPasswordCheckbox');
   const passwordInput = $('#password');
-
-  // Adicione um evento de clique à caixa de seleção
   showPasswordCheckbox.on('click', function () {
-    // Alterne o tipo de entrada entre 'password' e 'text'
     const passwordType = passwordInput.attr('type');
     passwordInput.attr('type', passwordType === 'password' ? 'text' : 'password');
   });
