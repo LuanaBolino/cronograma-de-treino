@@ -41,13 +41,27 @@
         <input type="email" name="email" id="email" placeholder="EMAIL" class="input">
         <span id="email-error" class="error-message"></span>
 
-        <input type="password" name="password" id="password" placeholder="PASSWORD" class="input">
-        <span id="password-error" class="error-message"></span>
+
+          <input type="password" name="password" id="password" placeholder="PASSWORD" class="input">
+          <div class="password-error-check">
+            <span id="password-error" class="error-message"></span>
+              <label class="checkbox-label">
+                <input type="checkbox" id="showPasswordCheckbox" class="checkbox-input">
+                <div class="checkbox-custom"></div>
+                SHOW PASSWORD
+              </label>
+          </div>
+
 
         <input type="password" name="confirmPassword" id="confirmPassword" placeholder="CONFIRM PASSWORD" class="input">
         <span id="confirmPassword-error" class="error-message"></span>
 
+        <input type="text" name="date" id="date" placeholder="BIRTH DATA" class="input">
+        <span id="date-error" class="error-message"></span>
+
         <button type="button" onclick="validateForm('signup')" class="btn-green">SIGN UP</button>
+
+
       </form>
       <a href="./login.html">ALREADY HAVE AN ACCOUNT? BETWEEN HERE!</a>
     </section>
@@ -61,6 +75,9 @@
   </footer>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="/assets/libraries/jquery/jquery-mask/jquery.mask.js"></script>
+
   <script src="./sign.js"></script>
 
 </body>

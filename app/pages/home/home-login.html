@@ -45,6 +45,13 @@
             play_circle
           </span>
         </button>
+        <button id="btn-edit"
+          class="btn btn-primary rounded-4 col-7 col-md-3 d-flex flex-column justify-content-center align-items-center b-white p-2 h-25">
+          <h3 class="h3-txt text-center">EDIT TRAINING</h3>
+          <span class="material-symbols-outlined" style="font-size: clamp(2.5rem, 1.8478rem + 3.2609vw, 4.375rem);">
+            edit
+          </span>
+        </button>
       </div>
     </div>
   </main>
@@ -59,6 +66,9 @@
   <script>
     document.getElementById('btn-training').addEventListener('click', function () {
       window.location.href = '/app/pages/training/training.html';
+    });
+    document.getElementById('btn-edit').addEventListener('click', function () {
+      window.location.href = '/app/pages/new-training/new-training.html';
     });
   </script>
 </body>
