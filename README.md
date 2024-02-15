@@ -1,6 +1,3 @@
-## Protótipo
-
-https://www.figma.com/file/8eArPUxFO5FgSXe3hVFCCG/cronograma-de-treino?type=design&node-id=0%3A1&mode=design&t=cTtkBRKqL1uW4uRS-1git
 
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
