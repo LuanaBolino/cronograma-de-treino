@@ -1,4 +1,6 @@
 
+Para testar o projeto, basta clonar este repositório e abrir o arquivo index.html utilizando o Live Server.
+
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
