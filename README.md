@@ -1,5 +1,24 @@
+# Go Fit 💪🏻
 
-Para testar o projeto, basta clonar este repositório e abrir o arquivo index.html utilizando o Live Server.
+## Descrição
+O **Go Fit** é uma aplicação que possui uma tela de login e registro com validação de dados. Ao optar por criar uma conta, o usuário precisa fornecer algumas informações, e, após o cadastro, será redirecionado para uma tela onde pode criar um plano de treino. Ao fazer o login, o usuário verá duas opções: uma para começar o treino e outra para editar o treino. São oferecidos cinco treinos e o usuário pode selecionar os dias da semana em que deseja treinar. Após a seleção, um cronograma semanal de treinos será exibido, baseado nas escolhas feitas.
+
+## Tecnologias Utilizadas
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **JavaScript**
+- **jQuery**
+- **API do Chuck Norris** (utilizada como requisito do projeto)
+
+## Contexto
+O projeto foi desenvolvido como parte da disciplina de **Desenvolvimento de Páginas Web com Frameworks e CSS**. Durante o curso, o projeto final tinha como requisito a implementação de funcionalidades como login, cadastro, escolha de planos e integração com uma API externa.
+
+## Instrução de Instalação
+Basta clonar o repositório e abrir o arquivo `index.html` no Live Server para visualizar a aplicação em funcionamento.
+
+
+
 
 ### Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
