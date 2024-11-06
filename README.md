@@ -3,18 +3,31 @@
 ## Descrição
 O **Go Fit** é uma aplicação que possui uma tela de login e registro com validação de dados. Ao optar por criar uma conta, o usuário precisa fornecer algumas informações, e, após o cadastro, será redirecionado para uma tela onde pode criar um plano de treino. Ao fazer o login, o usuário verá duas opções: uma para começar o treino e outra para editar o treino. São oferecidos cinco treinos e o usuário pode selecionar os dias da semana em que deseja treinar. Após a seleção, um cronograma semanal de treinos será exibido, baseado nas escolhas feitas.
 
+
+[🔗 Visualizar Protótipo no Figma](https://www.figma.com/design/8eArPUxFO5FgSXe3hVFCCG/cronograma-de-treino?node-id=18-82&t=FGdvGKqEZ3DDe1IN-1)
+
 ## Tecnologias Utilizadas
 
+<div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" height="30" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" height="30" alt="jquery"  />
   <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="30" alt="vs code"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" height="30" alt="figma"  />
+  <img width="12" />
+</div>
 
-Obs.: a API do chucknorris.io foi implementada apenas para cumprir o requisito do projeto, que exigia a integração de uma API externa. Embora não esteja diretamente relacionada ao tema da aplicação, foi aceita como uma solução prática, já que o objetivo principal era demonstrar a capacidade de trabalhar com APIs. Infelizmente, não foi encontrada uma API gratuita que se alinhasse ao tema do projeto, o que levou à escolha dessa API como uma implementação funcional.
+<br>
+
+**Obs.:** a API do chucknorris.io foi implementada apenas para cumprir o requisito do projeto, que exigia a integração de uma API externa. Embora não esteja diretamente relacionada ao tema da aplicação, foi aceita como uma solução prática, já que o objetivo principal era demonstrar a capacidade de trabalhar com APIs. Infelizmente, não foi encontrada uma API gratuita que se alinhasse ao tema do projeto, o que levou à escolha dessa API como uma implementação funcional.
 
 ## Contexto
 O projeto foi desenvolvido como trabalho final da disciplina **Desenvolvimento de Páginas Web com Frameworks e CSS**, e atendia a uma série de requisitos específicos, que estão listados no checklist abaixo.
