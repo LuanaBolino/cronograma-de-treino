@@ -1,7 +1,7 @@
 
 Para testar o projeto, basta clonar este repositório e abrir o arquivo index.html utilizando o Live Server.
 
-## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
+### Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
 - [x] ID 01 - Implementa um layout responsivo de uma página web utilizando um Framework CSS, como Bootstrap ou Tailwind, que se adapta adequadamente a diferentes tamanhos de tela e dispositivos.
