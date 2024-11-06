@@ -4,12 +4,9 @@
 O **Go Fit** é uma aplicação que possui uma tela de login e registro com validação de dados. Ao optar por criar uma conta, o usuário precisa fornecer algumas informações, e, após o cadastro, será redirecionado para uma tela onde pode criar um plano de treino. Ao fazer o login, o usuário verá duas opções: uma para começar o treino e outra para editar o treino. São oferecidos cinco treinos e o usuário pode selecionar os dias da semana em que deseja treinar. Após a seleção, um cronograma semanal de treinos será exibido, baseado nas escolhas feitas.
 
 ## Tecnologias Utilizadas
-- **HTML**
-- **CSS**
-- **Bootstrap**
-- **JavaScript**
-- **jQuery**
-- **API do Chuck Norris** (utilizada como requisito do projeto)
+
+
+Obs.: a API do chucknorris.io foi implementada apenas para cumprir o requisito do projeto, que exigia a integração de uma API externa. Embora não esteja diretamente relacionada ao tema da aplicação, foi aceita como uma solução prática, já que o objetivo principal era demonstrar a capacidade de trabalhar com APIs. Infelizmente, não foi encontrada uma API gratuita que se alinhasse ao tema do projeto, o que levou à escolha dessa API como uma implementação funcional.
 
 ## Contexto
 O projeto foi desenvolvido como trabalho final da disciplina **Desenvolvimento de Páginas Web com Frameworks e CSS**, e atendia a uma série de requisitos específicos, que estão listados no checklist abaixo.
