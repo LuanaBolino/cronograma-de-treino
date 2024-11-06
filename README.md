@@ -12,9 +12,9 @@ O **Go Fit** é uma aplicação que possui uma tela de login e registro com vali
 - **API do Chuck Norris** (utilizada como requisito do projeto)
 
 ## Contexto
-O projeto foi desenvolvido como parte da disciplina de **Desenvolvimento de Páginas Web com Frameworks e CSS**. Durante o curso, o projeto final tinha como requisito a implementação de funcionalidades como login, cadastro, escolha de planos e integração com uma API externa.
+O projeto foi desenvolvido como trabalho final da disciplina **Desenvolvimento de Páginas Web com Frameworks e CSS**, e atendia a uma série de requisitos específicos, que estão listados no checklist abaixo.
 
-## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
+### Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
 - [x] ID 01 - Implementa um layout responsivo de uma página web utilizando um Framework CSS, como Bootstrap ou Tailwind, que se adapta adequadamente a diferentes tamanhos de tela e dispositivos.
