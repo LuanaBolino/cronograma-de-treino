@@ -14,13 +14,7 @@ O **Go Fit** é uma aplicação que possui uma tela de login e registro com vali
 ## Contexto
 O projeto foi desenvolvido como parte da disciplina de **Desenvolvimento de Páginas Web com Frameworks e CSS**. Durante o curso, o projeto final tinha como requisito a implementação de funcionalidades como login, cadastro, escolha de planos e integração com uma API externa.
 
-## Instrução de Instalação
-Basta clonar o repositório e abrir o arquivo `index.html` no Live Server para visualizar a aplicação em funcionamento.
-
-
-
-
-### Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
+## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
 - [x] ID 01 - Implementa um layout responsivo de uma página web utilizando um Framework CSS, como Bootstrap ou Tailwind, que se adapta adequadamente a diferentes tamanhos de tela e dispositivos.
@@ -47,3 +41,6 @@ Basta clonar o repositório e abrir o arquivo `index.html` no Live Server para v
 
 #### RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas, permitindo a obtenção e manipulação de dados dinamicamente.
 - [x] ID 22 - Realiza requisições assíncronas para uma API fake e APIs públicas, utilizando adequadamente conceitos como AJAX, Fetch API ou bibliotecas, para obter dados dinâmicos e realizar a manipulação e exibição dos resultados na página web.
+
+## Instrução de Instalação
+Basta clonar o repositório e abrir o arquivo `index.html` no Live Server para visualizar a aplicação em funcionamento.
